@@ -1,7 +1,70 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE HTML >
+<html lang="zh-cn">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>This is FIVED's WEB site</title>
+<style rel="stylesheet">
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(img/seattlebg.png) #dddddd fixed;
+	font-family: "Microsoft Yahei", Tahoma, Arial, Helvetica, STHeiti;
+	text-align: center;
+}
+
+.shadow {
+	font-size: 22px; color : #555555;
+	text-shadow: 0px 1px 1px white;
+	color: #555555;
+}
+
+#currentInfo {
+	font-size: 5px; position : absolute;
+	top: 0;
+	left: 0;
+	text-align: left;
+	position: absolute;
+}
+</style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div id="life" class="shadow">"life".matches("[^“‚|±ÿ|πÃ|Œ“]+");</div>
+
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Your web browser must have JavaScript enabled in order for this
+			application to display correctly.</div>
+	</noscript>
+	<div id="currentInfo" class="shadow"></div>
 </body>
+<script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+<script type="text/javascript">
+	var $currentInfo = $("#currentInfo");
+	var $life = $("#life");
+	var $window = $(window);
+	
+	$(function() {
+		function changeTheWorld() {
+			
+			$currentInfo.html("currentWinWidth : "+$window.width()+"<br>"+"currentWinHeight : "+$window.height());
+
+			var fontSize = $window.width() / 18;
+			$life.css({
+				"font-size" : fontSize,
+				"line-height" : $window.height() + "px"
+			});
+		}
+
+		//init
+		changeTheWorld();
+		
+		$window.resize(changeTheWorld);
+	})
+</script>
 </html>

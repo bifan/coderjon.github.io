@@ -1,5 +1,10 @@
-coderjon.github.io
-==================
+#coderjon.github.io / coderjon.net
+==================================
+
+Edit use http://prose.io/
+
+
+
 ####自动在本地重启、部署jekyll的bat案例：
 ``` bat
 @echo off

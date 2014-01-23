@@ -4,4 +4,33 @@ layout: default
 
 <h2>{{page.title}}</h2>
 <p>First one</p>
+
+
+
+
+{% highlight ruby linenos %}
+require 'rubygems'
+
+def foo
+  puts 'foo'
+end
+
+#comment
+{% endhighlight %}
+
+
+
+
+
+
+{% highlight python %}
+"""Let go"""
+import os
+print os.name
+def fire():
+	for i in range(5)
+		print i
+	
+{% endhighlight %}
+
 <p>{{page.date|date:"%Y-%m-%d"}}</p>

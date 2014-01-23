@@ -1,6 +1,6 @@
 coderjon.github.io
 ==================
-####自动在本地重启、部署jekyll的批处理：
+####自动在本地重启、部署jekyll的bat案例：
 ``` bat
 @echo off
 taskkill /fi "windowTitle eq jekyll"

@@ -16,6 +16,7 @@ class SomeClass:
 
 >>> message = '''interpreter
 ... prompt'''
+print "compile"
 ```
 
 

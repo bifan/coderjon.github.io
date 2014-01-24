@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />   
+	<!-- syntax highlighting CSS -->
+	<link rel="stylesheet" href="/css/syntax-pygments.css" type="text/css" />
+	<!--<link rel="stylesheet" href="/css/default.css" type="text/css" />-->
+	<title>Code Style</title>
+</head>
+<body>
+
+	<pre class="python"><code class="python">@requires_authorization
+def somefunc(param1='', param2=0):
+    '''A docstring'''
+    if param1 &gt; param2: # interesting
+        print 'Greater'
+    return (param2 - param1 + 1) or None
+
+class SomeClass:
+    pass
+
+&gt;&gt;&gt; message = '''interpreter
+... prompt'''</code></pre>
+<div class='highlight'><pre><code class='ruby'><span class='lineno'>1</span> <span class='nb'>require</span> <span class='s1'>&#39;rubygems&#39;</span>
+<span class='lineno'>2</span> 
+<span class='lineno'>3</span> <span class='k'>def</span> <span class='nf'>foo</span>
+<span class='lineno'>4</span>   <span class='nb'>puts</span> <span class='s1'>&#39;foo&#39;</span>
+<span class='lineno'>5</span> <span class='k'>end</span>
+<span class='lineno'>6</span> 
+<span class='lineno'>7</span> <span class='c1'>#comment</span>
+</code></pre></div>
+<pre class="ruby"><code class="ruby">require 'rubygems'
+
+def foo
+  puts 'foo'
+end
+
+#comment</code></pre>
+<div class='highlight'><pre><code class='python'><span class='sd'>&quot;&quot;&quot;Let go&quot;&quot;&quot;</span>
+<span class='kn'>import</span> <span class='nn'>os</span>
+<span class='k'>print</span> <span class='n'>os</span><span class='o'>.</span><span class='n'>name</span>
+<span class='k'>def</span> <span class='nf'>fire</span><span class='p'>():</span>
+	<span class='k'>for</span> <span class='n'>i</span> <span class='ow'>in</span> <span class='nb'>range</span><span class='p'>(</span><span class='mi'>5</span><span class='p'>)</span>
+		<span class='k'>print</span> <span class='n'>i</span>
+	
+</code></pre></div>
+<p>2014-01-24</p>
+
+</body>
+</html>

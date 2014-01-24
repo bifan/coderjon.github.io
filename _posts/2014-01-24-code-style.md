@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<h2>{{page.title}}</h2>
-<p>First one</p>
 
 
 ```python
@@ -34,7 +32,15 @@ end
 {% endhighlight %}
 
 
+```ruby
+require 'rubygems'
 
+def foo
+  puts 'foo'
+end
+
+#comment
+```
 
 
 
@@ -48,4 +54,4 @@ def fire():
 	
 {% endhighlight %}
 
-<p>{{page.date|date:"%Y-%m-%d"}}</p>
+{{page.date|date:"%Y-%m-%d"}}

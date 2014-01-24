@@ -1,8 +1,7 @@
 ---
 layout: default
+published: true
 ---
-
-
 
 ```python
 @requires_authorization

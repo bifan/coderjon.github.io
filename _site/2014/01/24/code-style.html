@@ -9,42 +9,44 @@
 </head>
 <body>
 
-	<pre class="python"><code class="python">@requires_authorization
-def somefunc(param1='', param2=0):
-    '''A docstring'''
-    if param1 &gt; param2: # interesting
-        print 'Greater'
-    return (param2 - param1 + 1) or None
+	<div class="highlight"><pre><code class="python language-python" data-lang="python"><span class="nd">@requires_authorization</span>
+<span class="k">def</span> <span class="nf">somefunc</span><span class="p">(</span><span class="n">param1</span><span class="o">=</span><span class="s">&#39;&#39;</span><span class="p">,</span> <span class="n">param2</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;A docstring&#39;&#39;&#39;</span>
+    <span class="k">if</span> <span class="n">param1</span> <span class="o">&gt;</span> <span class="n">param2</span><span class="p">:</span> <span class="c"># interesting</span>
+        <span class="k">print</span> <span class="s">&#39;Greater&#39;</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">param2</span> <span class="o">-</span> <span class="n">param1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="ow">or</span> <span class="bp">None</span>
 
-class SomeClass:
-    pass
+<span class="k">class</span> <span class="nc">SomeClass</span><span class="p">:</span>
+    <span class="k">pass</span>
 
-&gt;&gt;&gt; message = '''interpreter
-... prompt'''</code></pre>
-<div class='highlight'><pre><code class='ruby'><span class='lineno'>1</span> <span class='nb'>require</span> <span class='s1'>&#39;rubygems&#39;</span>
-<span class='lineno'>2</span> 
-<span class='lineno'>3</span> <span class='k'>def</span> <span class='nf'>foo</span>
-<span class='lineno'>4</span>   <span class='nb'>puts</span> <span class='s1'>&#39;foo&#39;</span>
-<span class='lineno'>5</span> <span class='k'>end</span>
-<span class='lineno'>6</span> 
-<span class='lineno'>7</span> <span class='c1'>#comment</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">message</span> <span class="o">=</span> <span class="s">&#39;&#39;&#39;interpreter</span>
+<span class="s">... prompt&#39;&#39;&#39;</span>
+<span class="k">print</span> <span class="s">&quot;compile&quot;</span>
 </code></pre></div>
-<pre class="ruby"><code class="ruby">require 'rubygems'
+<p>require &#39;rubygems&#39;</p>
 
-def foo
-  puts 'foo'
-end
+<p>def foo
+  puts &#39;foo&#39;
+end</p>
 
-#comment</code></pre>
-<div class='highlight'><pre><code class='python'><span class='sd'>&quot;&quot;&quot;Let go&quot;&quot;&quot;</span>
-<span class='kn'>import</span> <span class='nn'>os</span>
-<span class='k'>print</span> <span class='n'>os</span><span class='o'>.</span><span class='n'>name</span>
-<span class='k'>def</span> <span class='nf'>fire</span><span class='p'>():</span>
-	<span class='k'>for</span> <span class='n'>i</span> <span class='ow'>in</span> <span class='nb'>range</span><span class='p'>(</span><span class='mi'>5</span><span class='p'>)</span>
-		<span class='k'>print</span> <span class='n'>i</span>
-	
+<h1>comment</h1>
+<div class="highlight"><pre><code class="ruby language-ruby" data-lang="ruby"><span class="nb">require</span> <span class="s1">&#39;rubygems&#39;</span>
+
+<span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">&#39;foo&#39;</span>
+<span class="k">end</span>
+
+<span class="c1">#comment</span>
 </code></pre></div>
+<p>&quot;&quot;&quot;Let go&quot;&quot;&quot;
+import os
+print os.name
+def fire():
+    for i in range(5)
+        print i</p>
+
 <p>2014-01-24</p>
+
 
 </body>
 </html>

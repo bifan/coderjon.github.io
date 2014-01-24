@@ -21,7 +21,7 @@ print "compile"
 
 
 
-{% highlight ruby linenos %}
+
 require 'rubygems'
 
 def foo
@@ -29,7 +29,7 @@ def foo
 end
 
 #comment
-{% endhighlight %}
+
 
 
 ```ruby
@@ -44,7 +44,7 @@ end
 
 
 
-{% highlight python %}
+
 """Let go"""
 import os
 print os.name
@@ -52,6 +52,6 @@ def fire():
 	for i in range(5)
 		print i
 	
-{% endhighlight %}
+
 
 {{page.date|date:"%Y-%m-%d"}}

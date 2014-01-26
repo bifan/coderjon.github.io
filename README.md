@@ -6,7 +6,7 @@ Edit use http://prose.io/
 
 
 ####自动在本地重启、部署jekyll的bat案例：
-``` bat
+```batch
 @echo off
 taskkill /fi "windowTitle eq jekyll"
 title jekyll

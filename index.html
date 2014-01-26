@@ -8,5 +8,6 @@ title: Home
 <a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>This is a title</h3>
 
 <p>You can <a href="#" class="user-mention">@user</a><code>&lt;a&gt;</code> </p>
-
+{% for post in site.posts %}
 <h3>{{ post.date | date:"%Y-%m-%d" }} <a href="{{ post.url }}">{{ post.title }}</a></h3>
+{% endfor %}

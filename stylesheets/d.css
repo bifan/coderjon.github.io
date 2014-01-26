@@ -8,4 +8,7 @@
 
 .duanli-d{
 	color: #497bca;
+	height: 20px;
+	width: 20px;
+	background: url('../images/d.png');
 }

@@ -14,3 +14,9 @@
 	background-image: url('/favicon.ico');
 	background-size: 100% 100%;
 }
+@font-face {
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Chivo Black'), local('Chivo-Black'), url(uOXSiKkEygwkvR4cgUzOz_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}

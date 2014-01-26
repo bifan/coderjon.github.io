@@ -10,5 +10,7 @@
 	color: #497bca;
 	height: 20px;
 	width: 20px;
-	background: url('../images/d.png') 20px 20px;
+	display: inline-block;
+	background-image: url('/favicon.ico');
+	background-size: 100% 100%;
 }

@@ -21,7 +21,7 @@ print "compile"
 
 
 
-
+```ruby
 require 'rubygems'
 
 def foo
@@ -29,7 +29,7 @@ def foo
 end
 
 #comment
-
+```
 
 
 ```ruby

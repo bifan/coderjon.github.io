@@ -3,6 +3,7 @@ layout: default
 published: true
 ---
 
+###`Pyathon:`
 ```python
 @requires_authorization
 def somefunc(param1='', param2=0):

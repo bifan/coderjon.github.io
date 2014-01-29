@@ -1,3 +1,7 @@
+body{
+	/* font-family: 'Chivo', 'Helvetica Neue', Helvetica, Tahoma, Arial, STXihei, "Microsoft YaHei", SimSun, Heiti, "sans-serif;
+ */}
+
 .duanli{
 	letter-spacing: -1px;
 	font-size: 12px;
@@ -35,7 +39,9 @@ footer .duanli{
   font-weight: 900;
   src: local('Chivo Black'), local('Chivo-Black'), url(uOXSiKkEygwkvR4cgUzOz_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
 }
-
+.title-time{
+	
+}
 h4{
 	color: #6d6d6d;
 	font-weight: normal;

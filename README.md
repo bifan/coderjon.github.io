@@ -1,11 +1,7 @@
-#coderjon.github.io / coderjon.net
+Bolg
 ==================================
 
-Edit use http://prose.io/
-
-
-
-####自动在本地重启、部署jekyll的bat案例：
+####The bat for reboot local jekyll：
 ```batch
 @echo off
 taskkill /fi "windowTitle eq jekyll"
@@ -14,4 +10,3 @@ cd C:\Users\FIVE-D\Documents\GitHub\coderjon.github.io
 jekyll serve
 cmd
 ```
-bolg @ github
